@@ -170,63 +170,64 @@ server {
 
 Jenkins Hello API
 
-![alt text](output/hello_jenkins.png)
+<img width="1467" height="760" alt="hello_jenkins" src="https://github.com/user-attachments/assets/068c216a-5e72-4344-a908-776f6ebdc0fc" />
 
 ECR hello API
 
-![alt text](output/ecr_hello.png)
+<img width="1470" height="730" alt="ecr_hello" src="https://github.com/user-attachments/assets/8cb0cb30-a3ae-4e91-8e25-fdd50f6e6917" />
 
 Jenkins Profile API
 
-![alt text](output/profile_jenkins.png)
+<img width="1386" height="762" alt="profile_jenkins" src="https://github.com/user-attachments/assets/f5a638c2-b4fc-4560-8761-3ac25fe9ba1e" />
 
 ECR Profile API
 
-![alt text](output/ecr_profile.png)
+<img width="1470" height="655" alt="ecr_profile" src="https://github.com/user-attachments/assets/57d04cfd-ae88-4a13-afe6-d8aa8e0282ac" />
 
 Docker Ouput - Backend
 
-![alt text](output/dockers_backend.png)
+<img width="1470" height="237" alt="dockers_backend" src="https://github.com/user-attachments/assets/d344c530-2a32-4324-ac04-7b42e85b5745" />
 
 Note: The backend can be run in 2 servers if needed for hello API and Profile APi, to demo purpose i have used single EC2 to both the API
 
 Hello API Output with IP
 
-![alt text](output/api_hello_with_ip.png)
+<img width="656" height="316" alt="api_user_with_ip" src="https://github.com/user-attachments/assets/c28ee138-178e-426b-a0b0-13250e0ff698" />
 
 Hello API Output with Website Address
 
-![alt text](output/api_hello.png)
+<img width="800" height="220" alt="api_hello" src="https://github.com/user-attachments/assets/0c730dd0-5a7d-4c7a-b209-408affc0161e" />
 
 USER API Output with IP
 
-![alt text](output/api_user_with_ip.png)
+<img width="656" height="316" alt="api_user_with_ip" src="https://github.com/user-attachments/assets/904f18c4-0cdd-4efe-855a-36921044040e" />
 
 User API Output with Website Address
 
-![alt text](output/api_user.png)
+<img width="849" height="340" alt="api_user" src="https://github.com/user-attachments/assets/5ab054a1-5715-48c5-a65f-861f35bfbf93" />
 
 ### Frontend Outputs
 
 Jenkins Front End
 
-![alt text](output/front_jenkins.png)
+<img width="1389" height="723" alt="front_jenkins" src="https://github.com/user-attachments/assets/d213548c-8fbb-4732-bf6c-11c7ed503c4d" />
 
 ECR frontend
 
-![alt text](output/ecr_frontend.png)
+<img width="1470" height="441" alt="ecr_frontend" src="https://github.com/user-attachments/assets/c9d4120d-6d00-4d9a-b737-87b67785fd8c" />
 
 Website Output frontend Via IP
 
-![alt text](output/front_ip.png)
+<img width="1006" height="446" alt="front_ip" src="https://github.com/user-attachments/assets/059d1d2d-3909-472c-a3ea-719662ecaa29" />
 
 Website Output frontend Via Website
 
-![alt text](output/front_domain.png)
+<img width="930" height="406" alt="front_domain" src="https://github.com/user-attachments/assets/0ff06b4f-9fcf-4cdc-ae85-57da4b63a9cb" />
 
 AWS Instance List
 
-![alt text](output/aws_output.png)
+<img width="1470" height="303" alt="aws_output" src="https://github.com/user-attachments/assets/9483e193-dbf7-4c33-a2aa-1e6348d58e6c" />
+
 
 
 ## ☸️ Jenkins + EKS Deployment (Optional Variant)
