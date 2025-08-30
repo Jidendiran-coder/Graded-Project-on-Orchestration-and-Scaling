@@ -192,7 +192,7 @@ Note: The backend can be run in 2 servers if needed for hello API and Profile AP
 
 Hello API Output with IP
 
-<img width="656" height="316" alt="api_user_with_ip" src="https://github.com/user-attachments/assets/c28ee138-178e-426b-a0b0-13250e0ff698" />
+<img width="739" height="161" alt="api_hello_with_ip" src="https://github.com/user-attachments/assets/7ed4232d-48c2-41b9-b727-4a032bf20bce" />
 
 Hello API Output with Website Address
 
