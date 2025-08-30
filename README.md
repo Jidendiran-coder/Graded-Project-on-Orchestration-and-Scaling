@@ -67,13 +67,13 @@ Each Jenkinsfile performs the following stages:
 
 | ID                      | Description                             |
 |-------------------------|-----------------------------------------|
-| `thiru-access-key-id`   | AWS Access Key ID                       |
-| `thiru-secret-access-key` | AWS Secret Access Key                 |
-| `thiru-ec2`             | EC2 private SSH key                     |
+| `jide-access-key-id`   | AWS Access Key ID                       |
+| `jide-secret-access-key` | AWS Secret Access Key                 |
+| `jide-ec2`             | EC2 private SSH key                     |
 | `ec2-backend-user`      | EC2 username (`ec2-user` or custom)     |
 | `ec2-backend-host`      | EC2 public IP                           |
 | `mern-database`         | MongoDB connection string               |
-| `thiru-github-access`   | GitHub token/credentials                |
+| `jide-github-access`   | GitHub token/credentials                |
 | `mern-database`         | Database Url                            |
 | `ec2-frontend-user`     | EC2 username (`ec2-user` or custom)     |
 | `ec2-frontend-host`     | EC2 public IP                           |
@@ -242,7 +242,7 @@ You can also deploy the MERN microservices stack to **Amazon EKS (Elastic Kubern
 #### 2. Configure Kubeconfig in Jenkins Agent:
 
 ```
-aws eks update-kubeconfig --region ap-south-1 --name thiru-mern-cluster
+aws eks update-kubeconfig --region ap-south-1 --name jide-mern-cluster
 ```
 
 #### 3. Build & Push Docker Images to ECR:
@@ -258,7 +258,7 @@ In Jenkins, add a Helm deploy will have something like below:
 ```
 helm upgrade --install mern-website . \
 -f values.yaml \
---set-string image.repository="thirumalaipy/mernwebsite" \
+--set-string image.repository="jidendirpy/mernwebsite" \
 --set-string image.tag="v1" \
 --set-string hello_service="<url>" \
 --set-string profile_service="<url>" \
@@ -279,10 +279,6 @@ The same helm will customised for the hello and profile services
 
 - Use Horizontal Pod Autoscalers (HPA) for autoscaling based on CPU/requests
 
-**Releated Previous Assignments**
-
-- https://github.com/thirumalai-py/k8-learner-backend
-- https://github.com/thirumalai-py/k8-learner-frontend 
 
 
 
