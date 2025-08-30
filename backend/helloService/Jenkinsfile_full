@@ -2,15 +2,15 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPO="https://github.com/thirumalai-py/mern-orchestration"
+        GIT_REPO="https://github.com/Jidendiran-coder/Graded-Project-on-Orchestration-and-Scaling.git"
         AWS_REGION = "ap-south-1"
-        ECR_REPO = "975050024946.dkr.ecr.ap-south-1.amazonaws.com/thirumalai-b10/m-hello"
+        ECR_REPO = "975050024946.dkr.ecr.ap-south-1.amazonaws.com/jidendir-b10/m-hello"
         IMAGE_TAG = "dev-${BUILD_NUMBER}"
-        AWS_ACCESS_KEY_ID = credentials('thiru-access-key-id')
-        AWS_SECRET_ACCESS_KEY = credentials('thiru-secret-access-key')
-        CLUSTER_NAME = "thiru-mern-cluster"
+        AWS_ACCESS_KEY_ID = credentials('jide-access-key-id')
+        AWS_SECRET_ACCESS_KEY = credentials('jide-secret-access-key')
+        CLUSTER_NAME = "jide-mern-cluster"
         DATABASE_URL = credentials('learn-api-db')
-        EC2_SSH = 'thiru-ec2'
+        EC2_SSH = 'jide-ec2'
         EC2_USER= credentials('ec2-backend-user')
         EC2_HOST= credentials('ec2-backend-host')
         CONTAINER_NAME= "api-hello"
