@@ -6,7 +6,7 @@ pipeline {
         AWS_REGION = "ap-south-1"
         ECR_REPO = "975050024946.dkr.ecr.ap-south-1.amazonaws.com/jidendir-b10/m-profile"
         IMAGE_TAG = "dev-${BUILD_NUMBER}"
-        AWS_ACCESS_KEY_ID = credentials('thiru-access-key-id')
+        AWS_ACCESS_KEY_ID = credentials('jide-access-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('jide-secret-access-key')
         CLUSTER_NAME = "jide-mern-cluster"
         DATABASE_URL = credentials('mern-database')
