@@ -35,7 +35,7 @@ This project demonstrates a complete CI/CD setup for deploying a **MERN-based mi
 ## ✨ Project Structure
 
 ```
-mern-orchestration/
+Graded-Project-on-Orchestration-and-Scaling/
 ├── backend/
 │   ├── helloService/
 │   │   └── Dockerfile, index.js, Jenkinsfile-hello. etc.
